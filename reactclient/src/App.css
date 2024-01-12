@@ -1,0 +1,228 @@
+.outer-signup-container {
+    width: 60%;
+    margin-top: 4%;
+    box-shadow: 0 0 10px rgb(65, 64, 64);
+    border-radius: 10px;
+}
+
+.signup-form-container {
+    margin: 5% auto;
+    padding: 12%;
+    text-align: center;
+}
+
+.signup-form-heading {
+    margin-bottom: 13%;
+    /* font-family: 'Neuton', serif; */
+    font-size: 3rem;
+    font-family: 'Vollkorn', serif;
+}
+
+.signup-input-fields input {
+    padding: 1% 0;
+    border: 2px solid transparent;
+    border-radius: 5px 5px 0 0;
+    margin: 2% 0;
+    width: 100%;
+    background-color: inherit;
+    border-bottom: 2px solid rgb(177, 177, 177);
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.signup-form-container button {
+    width: 100%;
+    margin-top: 13%;
+}
+
+
+/* login */
+
+.login-form-container {
+    margin: 5% auto;
+    padding: 0 35%;
+    text-align: center;
+}
+
+.login-form-heading {
+    margin-bottom: 13%;
+    font-size: 3rem;
+    font-family: 'Vollkorn', serif;
+}
+
+.login-input-fields input {
+    padding: 1% 0;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    border-radius: 5px 5px 0 0;
+    margin: 2% 0;
+    width: 100%;
+}
+
+input:focus {
+    /* background-color: aqua; */
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.login-form-container button {
+    width: 100%;
+    margin-top: 13%;
+}
+
+/* home page */
+.home-div {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.home-div h1 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+/* dashboard */
+
+.notice {
+    /* background-color: aqua; */
+    padding: 2% 7%;
+    text-align: center;
+}
+
+.notice-header {
+    /* background-color: blue; */
+    margin-bottom: 5%;
+}
+
+.notice-body {
+    /* background-color: bisque; */
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(65, 64, 64);
+    padding: 2%;
+}
+
+.upload-marks {
+    text-align: center;
+    padding: 5%;
+    margin: 4%;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(65, 64, 64);
+}
+
+.upload-marks input {
+    margin: 1% 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    padding: 1%;
+}
+
+.upload-marks input:focus {
+    border-bottom: 2px solid #000;
+}
+
+.dashboard-right-panel {
+    padding: 2% 5%;
+}
+
+.marks-table {
+    /* background-color: aqua; */
+    padding: 2% 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(65, 64, 64);
+}
+
+
+
+.marks-table .row {
+    border-bottom: 2px solid rgb(177, 177, 177);
+    margin-bottom: 3%;
+}
+
+
+/* myaccount */
+.my-account-details {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5% 10% 10%;
+    margin-top: 12%;
+    box-shadow: 0 0 5px rgb(65, 64, 64);
+}
+
+.my-account-detail {
+    border-bottom: 2px solid rgb(177, 177, 177);
+}
+
+.my-account-detail .col {
+    padding: 2% 0;
+}
+
+.my-account-detail .text-end {
+    font-size: 1.1rem;
+}
+
+/* student-card */
+.all-students-container {
+    padding: 4%;
+}
+
+.student-list-headings {
+    margin-bottom: 2%;
+}
+
+.student-card {
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    margin-bottom: 1%;
+    font-size: 1rem;
+}
+
+.student-card .col {
+    border-right: 1px solid rgb(177, 177, 177);
+}
+
+/* all faculty */
+.all-faculty-header {
+    margin: 2% 0;
+}
+
+.all-faculty-header h1 {
+    font-family: 'Vollkorn', serif;
+
+}
+
+.all-faculty-header .row {
+    text-align: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.all-faculty-header .row input {
+    border: none;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    padding: 1% 0;
+}
+
+.all-faculty-header .row button {
+    margin-left: 2%;
+}
+
+/* media query */
+
+@media screen and (max-width:992px) {
+    .outer-signup-container {
+        width: 90%;
+    }
+
+    .signup-img {
+        display: none;
+    }
+
+    .login-form-container {
+        padding: 0 20%;
+    }
+}
